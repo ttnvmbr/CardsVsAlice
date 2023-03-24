@@ -1,0 +1,75 @@
+html,
+body {
+  background: #31572c url("../images/wonderland.jpg") no-repeat center fixed;
+  background-size: cover;
+  font-family: "Alice", cursive;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+script {
+  display: none !important;
+}
+
+body * {
+  position: absolute;
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+card-component {
+  width: 21px;
+  min-height: 600px;
+  background-image: url("../images/card.png");
+}
+
+alice-component {
+  width: 178px;
+  height: 387px;
+  background-image: url("../images/alice.png");
+}
+
+tile-component {
+  width: 300;
+  height: 300;
+  background-color: white;
+}
+
+.ui {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  text-shadow: 2px 2px 0px black;
+  color: white;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(49, 87, 44, 0.6);
+  background-size: cover;
+  text-align: center;
+}
+
+.restart-button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  top: 60%;
+  text-shadow: 2px 2px 0px black;
+  margin: 2rem 0;
+  color: white;
+  position: absolute;
+  width: 10rem;
+  font-size: 1.2rem;
+  font-family: "Alice", cursive;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  background: #31572c;
+  padding: 1rem;
+  display: flex;
+}
